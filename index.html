@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            div{
+                border-style: solid;
+                border-color:lightblue;
+                padding: 10px;
+                margin: 10px;
+            }
+           body{
+               background-color: tan;
+           } 
+           #para{
+               background-color: tomato;
+               border-style: dashed;
+           }
+           #table{
+                background-color: lightgoldenrodyellow;
+           }
+           #form{
+               background-color:tomato;
+               color:bisque;
+           }
+           #emailHelp{
+               color:bisque
+           }
+           #pic1{
+               height: 500px;
+               width: 500px;
+               border-style:dashed;
+               border-radius:5in;
+               border-color:tomato ;
+           }
+           #end{
+               background-color: tomato;
+               border-radius: 5ch;
+               border-color:lightblue
+           }
+        </style>
+
+</head>
+<body class="container">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+        <a class="navbar-brand" href="index.html">Pyramids of Egypt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-control="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="page2.html">Cool Pictures</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="page2.html">Item Two</a>
+            </div> 
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container" id="para">
+    <div class="row">
+        The three main pyramids in Egypt are Khufu, Khafre, and Menkaure. Each named after the corresponding king for whom they were built. It estimated that Khufu, the largest pyramid in Egypt, took 20 years to construct and 100,000 workers.
+    </div>
+</div>
+<div class="container" id="table">
+    <div class="row">
+        <div class="col-sm">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Est. Age</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Khufu</th>
+                        <td>454 feet</td>
+                        <td>4600 years</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Khafre</th>
+                        <td>448 feet</td>
+                        <td>4600 years</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Menkaure</th>
+                        <td>213 feet</td>
+                        <td>4530 years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/290px-All_Gizah_Pyramids.jpg">
+        </div>
+<div class="container" id="form">
+    <div class="row">
+        <div class="col-sm">
+            <form>
+                <div class="form-group">
+                    <label for="inputEmail">Sign up for our weekly news email☑️</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter mailing address"> 
+                    <small id="emailHelp" class="form-text text muted">We'll never share your email with anyone else 😃.</small>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-sm">
+        <div class="row">
+            <img id="pic1" src="https://cdn.britannica.com/74/194374-131-40F15D56/pyramid-sunset-egypt.jpg">
+        </div>
+       <div class="col-sm" id="end">
+        Very cool!
+       </div>
+    </div>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
